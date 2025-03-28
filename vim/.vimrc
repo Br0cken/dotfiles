@@ -1,5 +1,5 @@
 syntax on               " enable syntax highlighting
-set nocursorline          " highlight the current line
+set nocursorline        " highlight the current line
 set nobackup            " don't create pointless backup files; Use VCS instead
 set autoread            " watch for file changes
 set number              " show line numbers
@@ -14,7 +14,7 @@ filetype indent on      " enable filetype-specific indenting
 filetype plugin on      " enable filetype-specific plugins
 
 " column-width visual indication
-let &colorcolumn=join(range(81,999),",")
+" let &colorcolumn=join(range(81,999),",")
 highlight ColorColumn ctermbg=235 guibg=#001D2F
 
 " tabs and indenting
@@ -26,7 +26,7 @@ set shiftwidth=2        " 2 spaces for indentation
 
 " bells
 set noerrorbells        " turn off audio bell
-set novisualbell          " but leave on a visual bell
+set novisualbell        " but leave on a visual bell
 
 " search
 set hlsearch            " highlighted search results
