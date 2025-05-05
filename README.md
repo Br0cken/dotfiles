@@ -7,7 +7,7 @@ My configuration. Kudos to @geerlingguy. I used [his configuration](https://gith
 Clone this repo to ~/.dotfiles and run
 
 ```bash
-stow /*
+stow */
 ```
 
 This will create symlinks for the configuration files to the .dotfiles directory.
