@@ -1,0 +1,4 @@
+# Install theme with
+# ya pack -a yazi-rs/flavors:catppuccin-macchiato
+[flavor]
+dark = "catppuccin-macchiato"
