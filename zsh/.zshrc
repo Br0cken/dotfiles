@@ -72,3 +72,5 @@ source <(fzf --zsh)
 
 # starship 
 eval "$(starship init zsh)"
+# zoxide
+eval "$(zoxide init zsh)"
