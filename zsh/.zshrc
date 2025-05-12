@@ -24,7 +24,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
 fi
 
 # Include Gentoo specific files
-if [[ "$(uname)" == "Darwin" ]]; then
+if [ -f /etc/gentoo-release ]; then
   if [ -f ~/.config/zsh/gentoo.zsh ]; then
     source ~/.config/zsh/gentoo.zsh 
   fi
@@ -34,7 +34,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
   fi
 
   if [ -f ~/.config/zsh/gentoo-functions.zsh ]; then
-    source  ~/.config/zsh/gentoon-functions.zsh
+    source  ~/.config/zsh/gentoo-functions.zsh
   fi
 fi
 
