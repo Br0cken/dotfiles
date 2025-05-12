@@ -8,6 +8,12 @@ then
   source ~/.config/zsh/aliases.zsh
 fi
 
+# Include func file 
+if [ -f ~/.config/zsh/func.zsh ]
+then
+  source ~/.config/zsh/func.zsh
+fi
+
 # Include Darwin specific files
 if [[ "$(uname)" == "Darwin" ]]; then
   if [ -f ~/.config/zsh/darwin.zsh ]; then

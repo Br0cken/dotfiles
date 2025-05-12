@@ -2,7 +2,7 @@
   name = Tobias Schuett
   email = schuett.tobias@gmail.com
 [core]
-  editor = vi
+  editor = vim
   excludesfile = ~/.gitignore
   #  autocrlf = input
 [color]
@@ -12,10 +12,6 @@
   status = auto
 [init]
     defaultBranch = main
-[web]
-    browser = safari
-[credential]
-    helper = osxkeychain
 [push]
     default = simple
 [merge]
@@ -33,3 +29,5 @@
 #  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
 [pull]
   rebase = true
+[include]
+  path = ~/.gitconfig.local
